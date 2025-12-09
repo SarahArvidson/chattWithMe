@@ -1,3 +1,10 @@
+// Variables for CSS/HTML //
+const greetingEl = document.getElementById("greeting");
+const restaurantEl = document.getElementById("restaurant-output");
+const activityEl = document.getElementById("activity-output");
+const challengeEl = document.getElementById("challenge-output");
+const button = document.getElementById("generate-btn");
+
 //Personalized greeting
 let userName = "Parth and Sarah";
 userName
