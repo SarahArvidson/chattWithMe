@@ -130,49 +130,49 @@ function generateDateNight() {
   switch (randomChallenge) {
     case 0:
       challenge =
-        "ask a stranger who does NOT have a dog if you may pet their dog";
+        "ask a stranger who does NOT have a dog if you may pet their dog.";
       break;
     case 1:
-      challenge = "you may only eat food and drink left-handed";
+      challenge = "you may only eat food and drink left-handed.";
       break;
     case 2:
       challenge =
-        "the only food and drink you may consume must begin with the letter 'R'";
+        "the only food and drink you may consume must begin with the letter 'R'.";
       break;
     case 3:
       challenge =
-        "Ask a third party in the restaurant to order your food for you. You cannot sway their opinion or offer guidance (except to avoid food allergies)";
+        "Ask a third party in the restaurant to order your food for you. You cannot sway their opinion or offer guidance (except to avoid food allergies).";
       break;
     case 4:
       challenge =
-        "call a friend you haven't spoken to in over a week and tell them that you want to wish them sweet dreams";
+        "call a friend you haven't spoken to in over a week and tell them that you want to wish them sweet dreams.";
       break;
     case 5:
       challenge =
-        "choose something you'd like to get rid of, like an old dog toy or sweater, and then sell it to a stranger for any amount. Take that amount and put it in VTSAX";
+        "choose something you'd like to get rid of, like an old dog toy or sweater, and then sell it to a stranger for any amount. Take that amount and put it in VTSAX.";
       break;
     case 6:
       challenge =
-        "You may only use 1-syllable words during dinner. If one of you slips up, you must both say 'meow'";
+        "You may only use 1-syllable words during dinner. If one of you slips up, you must both say 'meow'.";
       break;
     case 7:
       challenge =
-        "make frequent mention of pot bellied pigs, but pretend that it's a normal thing to mention";
+        "make frequent mention of pot bellied pigs, but pretend that it's a normal thing to mention.";
       break;
     case 8:
-      challenge = "your shirts must be worn backwards";
+      challenge = "your shirts must be worn backwards.";
       break;
     case 9:
-      challenge = "you may not wear shoes that match";
+      challenge = "you may not wear shoes that match.";
       break;
     case 10:
-      challenge = "tell a stranger 3 things you love about your partner";
+      challenge = "tell a stranger 3 things you love about your partner.";
       break;
   }
 
   restaurantEl.textContent = restaurant;
-  activityEl.textContent = `Then you will ${activity}`;
-  challengeEl.textContent = `Challenge: ${challenge}`;
+  activityEl.textContent = `For your activity, you will ${activity}`;
+  challengeEl.textContent = `Here's your special challenge: ${challenge}`;
 }
 
 //Mixed Messages Generator
