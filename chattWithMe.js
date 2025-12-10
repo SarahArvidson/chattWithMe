@@ -16,7 +16,7 @@ function generateDateNight() {
       );
 
   // Restaurant randomizer
-  let randomRestaurant = Math.floor(Math.random() * 14);
+  let randomRestaurant = Math.floor(Math.random() * 15);
 
   switch (randomRestaurant) {
     case 0:
@@ -170,9 +170,10 @@ function generateDateNight() {
       break;
   }
 
-  restaurantEl.textContent = restaurant;
-  activityEl.textContent = `For your activity, you will ${activity}`;
-  challengeEl.textContent = `Here's your special challenge: ${challenge}`;
+  greetingEl.textContent = `Thanks for using Chatt With Me! Here's your date...`;
+  restaurantEl.textContent = `Dinner: ${restaurant}`;
+  activityEl.textContent = `Activity: you will ${activity}`;
+  challengeEl.textContent = `Special challenge: ${challenge}`;
 }
 
 //Mixed Messages Generator
