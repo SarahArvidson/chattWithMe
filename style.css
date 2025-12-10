@@ -20,7 +20,7 @@ body {
   align-items: center;
   gap: 16px;
   padding: 24px;
-  background-color: rgba(255, 255, 255, 0.919);
+  background-color: #e3d6c2f2;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -57,7 +57,7 @@ body {
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: white;
+  background: #ffffff;
   border-radius: 3px;
 }
 
@@ -141,7 +141,7 @@ main {
 
 .about,
 .dates {
-  background: #ffffff;
+  background: #e3d6c2da;
   border-radius: 16px;
   padding: 32px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -216,7 +216,7 @@ main {
 /* Footer */
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.919);
+  background-color: #e3d6c2da;
   margin-top: 60px;
 }
 
