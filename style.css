@@ -77,7 +77,12 @@ main {
   width: 100%;
   height: 420px;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .header img {
@@ -86,6 +91,9 @@ main {
   object-fit: cover;
   object-position: center;
   display: block;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .header::after {
@@ -93,30 +101,26 @@ main {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .header h1,
 .header h2 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   color: #ffffff;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
   text-align: center;
   margin: 0;
-  z-index: 100;
+  z-index: 2;
   max-width: 90%;
 }
 
 .header h1 {
-  top: 38%;
   font-family: "Shadows Into Light Two", Georgia, serif;
   font-size: 96px;
-  
 }
 
 .header h2 {
-  top: 58%;
   font-size: 28px;
   font-weight: normal;
 }
@@ -130,6 +134,7 @@ main {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
 }
 
 /* About and dates cards */
